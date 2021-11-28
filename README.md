@@ -1,2 +1,2 @@
 # resume-website
- A website which showcases my skills and talents.
+ A website which showcases my awards and qualifications.
