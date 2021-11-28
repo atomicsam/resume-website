@@ -1,0 +1,50 @@
+body {
+    background-color: darkgoldenrod;
+}
+
+nav {
+    background-color: darkgray;
+}
+
+nav h1, nav ul {
+    text-align: center;
+}
+
+nav h1 {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+nav ul {
+    display: inline;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+nav ul li:hover {
+    background-color: darkgray;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+main {
+    background-color: darkkhaki;
+}
+
+main h2 {
+    text-align: center;
+}
