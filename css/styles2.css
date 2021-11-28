@@ -1,0 +1,60 @@
+body {
+    background-color: darkgoldenrod;
+}
+
+nav {
+    background-color: darkgray;
+    display: flex;
+}
+
+nav h1, nav ul {
+    text-align: center;
+    list-style-type: none;    
+}
+
+nav h1 {
+    flex: 1;
+}
+
+nav ul {
+    flex: 3;
+    display: flex;
+    padding: 0px;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+footer p {
+    display: inline;
+}
+
+.footerfloatright {
+    float: right;
+    margin-bottom: 100px;
+}
+
+/*id's*/
+#aboutme {
+    flex: 1;
+    flex-direction: row;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
