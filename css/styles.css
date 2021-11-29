@@ -1,9 +1,10 @@
 body {
     background-color: darkgoldenrod;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 nav {
-    background-color: sienna;
+    background-color: darkgray;
 }
 
 nav h1, nav ul {

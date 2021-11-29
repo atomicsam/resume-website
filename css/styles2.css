@@ -1,11 +1,15 @@
 body {
     background-color: rgb(214, 185, 112);
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 nav {
     background-color: rgba(167, 107, 196, 0.863);
     display: flex;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 nav h1, nav ul {
@@ -21,10 +25,16 @@ nav ul {
     flex: 3;
     display: flex;
     padding: 0px;
+    padding-top: 8px;
 }
 
 nav ul li {
     flex: 1;
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: rgb(214, 185, 112);
 }
 
 h2 {
@@ -37,19 +47,21 @@ main {
 }
 
 footer {
-    margin-top: 10px;
+    display: flex;
     background-color: rgb(67, 103, 117);
-    padding: 20px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 footer p {
+    padding-left: 40px;
+    flex: 10;
     display: inline;
 }
 
 .footerfloatright {
-    float: right;
-    margin-bottom: 100px;
+    flex: 1;
+    padding-left: 0px;
 }
 
 /*id's*/
@@ -57,9 +69,8 @@ footer p {
     flex: 1;
     flex-direction: row;
     background-color: darkkhaki;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 12px;
-    margin-top: 10px;
 }
 
 #aboutme img {
@@ -70,15 +81,31 @@ footer p {
 .home {
     text-align:center;
     background-color: darkkhaki;
-    margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.fullAchievements {
+    background-color: darkkhaki;
 }
 
 .achievements {
+    display: flex;
+    flex-direction: row;
     text-align: left;
     padding: 10px;
+    background-color: darkkhaki;
 }
 
-.achievements ul li {
-    margin-bottom: 10px;
+.achievements h3 {
+    text-align: center;
+}
+
+.achievements ul {
+    padding-left: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.awards, .roles {
+    flex: 1;
 }
