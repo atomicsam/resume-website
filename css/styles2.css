@@ -73,3 +73,12 @@ footer p {
     margin-top: 10px;
     border-radius: 10px;
 }
+
+.achievements {
+    text-align: left;
+    padding: 10px;
+}
+
+.achievements ul li {
+    margin-bottom: 10px;
+}
