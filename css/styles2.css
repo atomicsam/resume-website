@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(214, 185, 112);
+    background-color: rgb(252, 221, 143);
     font-family: 'JetBrains Mono', monospace;
     display: flex;
     flex-direction: column;
@@ -21,6 +21,22 @@ nav h1, nav ul {
 
 nav h1 {
     flex: 1;
+    color: black;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav div {
+    flex: 0.1;
+}
+
+nav img {
+    flex: 0.1;
+    flex-basis: 20px;
+    width: 40px;
 }
 
 nav ul {
@@ -42,7 +58,7 @@ nav a {
 }
 
 nav ul li:hover {
-    background-color: rgb(214, 185, 112);
+    background-color: rgb(252, 221, 143);
     display: block;
     align-items: center;
     padding-top: 25px;
@@ -97,6 +113,7 @@ footer p {
     text-align:center;
     background-color: darkkhaki;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .fullAchievements {
